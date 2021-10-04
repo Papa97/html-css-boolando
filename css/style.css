@@ -47,73 +47,73 @@
 
 #prod-1 {
   background-image: url(../img/1.webp);
-  height: 480px;
+  height: 700px;
   background-size: cover;
 }
 
 #prod-1:hover {
   background-image: url(../img/1b.webp);
-  height: 480px;
+  height: 700px;
   background-size: cover;
 }
 
 #prod-2 {
   background-image: url(../img/2.webp);
-  height: 480px;
+  height: 700px;
   background-size: cover;
 }
 
 #prod-2:hover {
   background-image: url(../img/2b.webp);
-  height: 480px;
+  height: 700px;
   background-size: cover;
 }
 
 #prod-3 {
   background-image: url(../img/3.webp);
-  height: 480px;
+  height: 700px;
   background-size: cover;
 }
 
 #prod-3:hover {
   background-image: url(../img/3b.webp);
-  height: 480px;
+  height: 700px;
   background-size: cover;
 }
 
 #prod-4 {
   background-image: url(../img/4.webp);
-  height: 480px;
+  height: 700px;
   background-size: cover;
 }
 
 #prod-4:hover {
   background-image: url(../img/4b.webp);
-  height: 480px;
+  height: 700px;
   background-size: cover;
 }
 
 #prod-5 {
   background-image: url(../img/5.webp);
-  height: 480px;
+  height: 700px;
   background-size: cover;
 }
 
 #prod-5:hover {
   background-image: url(../img/5b.webp);
-  height: 480px;
+  height: 700px;
   background-size: cover;
 }
 
 #prod-6 {
   background-image: url(../img/6.webp);
-  height: 480px;
+  height: 700px;
   background-size: cover;
 }
 
 #prod-6:hover {
   background-image: url(../img/6b.webp);
-  height: 480px;
+  height: 700px;
   background-size: cover;
 }
 
@@ -136,7 +136,8 @@
 
 .cuore {
   background-color: white;
-  padding: 7px;
+  font-size: 25px;
+  padding: 15px;
   position: absolute;
   top: 20px;
   right: 0;
@@ -144,7 +145,7 @@
 
 /* ***** DEBUG *****  */
 
-.debug .box {
+/* .debug .box {
   height: 550px;
   border: 1px solid black;
 }
@@ -152,5 +153,5 @@
 .debug .img-prod {
   height: 480px;
   width: 100%;
-  /* background-color: red; */
+  background-color: red; */
 }
