@@ -3,3 +3,125 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* main */
+
+.box {
+  width: 30%;
+  float: left;
+  margin: 3%;
+}
+
+#prod-1 {
+  background-image: url(../img/1.webp);
+  height: 480px;
+  background-size: cover;
+}
+
+#prod-1:hover {
+  background-image: url(../img/1b.webp);
+  height: 480px;
+  background-size: cover;
+}
+
+#prod-2 {
+  background-image: url(../img/2.webp);
+  height: 480px;
+  background-size: cover;
+}
+
+#prod-2:hover {
+  background-image: url(../img/2b.webp);
+  height: 480px;
+  background-size: cover;
+}
+
+#prod-3 {
+  background-image: url(../img/3.webp);
+  height: 480px;
+  background-size: cover;
+}
+
+#prod-3:hover {
+  background-image: url(../img/3b.webp);
+  height: 480px;
+  background-size: cover;
+}
+
+#prod-4 {
+  background-image: url(../img/4.webp);
+  height: 480px;
+  background-size: cover;
+}
+
+#prod-4:hover {
+  background-image: url(../img/4b.webp);
+  height: 480px;
+  background-size: cover;
+}
+
+#prod-5 {
+  background-image: url(../img/5.webp);
+  height: 480px;
+  background-size: cover;
+}
+
+#prod-5:hover {
+  background-image: url(../img/5b.webp);
+  height: 480px;
+  background-size: cover;
+}
+
+#prod-6 {
+  background-image: url(../img/6.webp);
+  height: 480px;
+  background-size: cover;
+}
+
+#prod-6:hover {
+  background-image: url(../img/6b.webp);
+  height: 480px;
+  background-size: cover;
+}
+
+.marca {
+  font-size: 12px;
+  color: gray;
+}
+
+.descrizione {
+  text-transform: uppercase;
+}
+
+.prezzo-giusto {
+  color: red;
+}
+
+.scontato {
+  text-decoration: line-through;
+}
+/* ***** DEBUG *****  */
+
+.debug .box {
+  height: 550px;
+  width: 300px;
+  /* background-color: yellow; */
+  border: 1px solid black;
+}
+
+.debug .img-prod {
+  height: 480px;
+  width: 100%;
+  /* background-color: red; */
+}
